@@ -59,7 +59,7 @@ ul {
 }
 
 ul li {
-    font-size: 24px;
+    font-size: 20px;
     padding: 16px 0;
     color: white;
 }
@@ -175,6 +175,10 @@ ul li img {
     border-left: 8px solid var(--orange);
 }
 
+.card-title {
+    font-weight: 400;
+}
+
 .card-description {
     font-size: 16px;
     flex: 1;
@@ -189,6 +193,10 @@ ul li img {
 #border-item {
     border-top: 1px solid var(--gray-blue);
     border-bottom: 1px solid var(--gray-blue);
+}
+
+.announcement-title {
+    font-weight: 400;
 }
 
 .announcement-item, .trending-account {
